@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/mainProductsFragment2"
+        android:title="Main Products"
+        android:icon="@drawable/ic_main_products"/>
+
+    <item android:id="@+id/savedProductsFragment2"
+        android:title="Saved Products"
+        android:icon="@drawable/ic_saved_products"/>
+
+    <item android:id="@+id/searchProductsFragment2"
+        android:title="Search Products"
+        android:icon="@drawable/ic_search_products"/>
+
+</menu>

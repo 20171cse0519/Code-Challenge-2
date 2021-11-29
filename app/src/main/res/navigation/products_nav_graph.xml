@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/products_nav_graph"
+    app:startDestination="@id/mainProductsFragment2">
+
+    <fragment
+        android:id="@+id/mainProductsFragment2"
+        android:name="com.example.codechallenge2.ui.fragments.MainProductsFragment"
+        android:label="MainProductsFragment" >
+        <action
+            android:id="@+id/action_mainProductsFragment2_to_articlesFragment2"
+            app:destination="@id/articlesFragment2"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/savedProductsFragment2"
+        android:name="com.example.codechallenge2.ui.fragments.SavedProductsFragment"
+        android:label="SavedProductsFragment" >
+        <action
+            android:id="@+id/action_savedProductsFragment2_to_articlesFragment2"
+            app:destination="@id/articlesFragment2"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/searchProductsFragment2"
+        android:name="com.example.codechallenge2.ui.fragments.SearchProductsFragment"
+        android:label="SearchProductsFragment" >
+        <action
+            android:id="@+id/action_searchProductsFragment2_to_articlesFragment2"
+            app:destination="@id/articlesFragment2"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/articlesFragment2"
+        android:name="com.example.codechallenge2.ui.fragments.ArticlesFragment"
+        android:label="ArticlesFragment" />
+</navigation>
